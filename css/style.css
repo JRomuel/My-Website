@@ -1,0 +1,195 @@
+.main-nav a{
+	font-size: 12px;
+	font-weight: bold;
+	color: #747474;
+}
+
+
+.nav-wrapper a{
+	color: #747474;
+}
+
+.search{
+	margin-left: 20px;
+}
+.about-me{
+	background: url('../img/image2.jpg');
+	background-position: center;
+	background-size:cover;
+	margin: 0;
+	padding: 0;
+	min-height: 600px;
+}
+.about-me h1{
+	font-weight: bold;
+	color: #fff;
+	margin: 0;
+	padding-top: 200px;
+}
+
+.about-me h6{
+	color: #fff;
+	padding-bottom: 20px;
+}
+
+.about-me-name{
+	color: #03bacf;
+}
+
+.about-me-expand{
+	position: absolute;
+	top: 642px;
+	left: 50%;
+}
+
+#profile{
+	margin-top: 70px;
+	display: none;
+}
+
+.my-story h6{
+	margin-bottom: 20px;
+}
+.my-story p{
+	margin-bottom: 20px;
+	text-align: justify;
+}
+
+.my-profile-picture img{
+	width: 80%;
+	height: 80%;
+}
+
+.section h6{
+	font-weight: bold;
+	color: #03bacf;
+}
+
+.my-personal-information hr,p{
+	margin: 0;
+}
+.my-personal-information p{
+	padding-bottom: 7px;
+	padding-top: 7px;
+}
+
+.my-personal-information hr{
+	height: 1px;
+	background: #ddd;
+	border: #fff;
+}
+.social-media-logos{
+	margin-top:10px;
+}
+
+.social-media-logos img{
+	height: 40px;
+	width: 40px;
+	margin: 3px;
+}
+
+.my-skills{
+	min-height: 400px;
+}
+.skill-col1{
+	text-align: left;
+	text-align: justify;
+}
+
+.chart{
+	position: relative;
+	width: 100%;
+	height: 400px;
+}
+
+
+
+.sample-text{
+	float: left
+}
+
+.skill-col1 h3{
+	font-weight: bold;
+	color: #03bacf;
+
+}
+
+.skill-rating{
+	margin-top: 50px;
+}
+
+.ind-bars{
+	position: relative;
+	height: 350px;
+	width: 15%;
+	top:20px;
+	float: left;
+	margin-right: 2%;
+}
+.bars{
+	position: absolute;
+	height: 0px;
+	width: 50%;
+	top:315px;
+	left: 25%;
+	background: #03bacf;
+}
+.ind-bars p{
+	position: absolute;
+	color: #03bacf;
+}
+
+.skill-description{
+	top: 0px;
+	left: 15%;
+}
+
+.skill-percentage{
+	top: 325px;
+	left: 35%;
+}
+
+.skill-buttons{
+	position: absolute;
+	top: 200px;
+	left: 90%;
+}
+
+.skill-button{
+	display: block;
+	margin-top: 20px;
+}
+
+.my-experiences{
+	background: #03bacf;
+	color: #fff;
+}
+
+.my-experiences h3{
+	padding: 60px 0 30px 0;
+	font-weight: bold;
+}
+
+p.main-paragraph{
+	padding-bottom: 30px;
+}
+.experiences{
+
+	float: left;
+}
+
+.experience{
+	background: #fff;
+}
+.experience h6{
+	color: #03bacf;
+}
+.experience p{
+	color: #777;
+}
+
+.experience img{
+	width: 100%;
+	height: 100%;
+}
+
