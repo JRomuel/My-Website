@@ -160,34 +160,12 @@
 	margin-top: 20px;
 }
 
-.my-experiences{
-	background: #03bacf;
-	color: #fff;
-}
-
-.my-experiences h3{
-	padding: 60px 0 30px 0;
-	font-weight: bold;
-}
-
-p.main-paragraph{
+p.main-paragraph {
 	padding-bottom: 30px;
-}
-.experiences{
-}
-
-.experience{
-	background: #fff;
-}
-.experience h6{
-	color: #03bacf;
-}
-.experience p{
-	color: #777;
+	text-align: justify;
 }
 
-.experience img{
-	width: 100%;
-	height: 100%;
+.bottomBorder{
+	height: 5px !important;
+	padding: 0 !important;
 }
-

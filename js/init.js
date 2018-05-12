@@ -3,7 +3,7 @@ var x = false;
 (function($){
   $(function(){
 
-    $('.sidenav').sidenav();
+    
     $('#hide-show-profile').on('click',function(){
     	$('#profile').slideToggle(500);
     	if(x === false)
@@ -82,3 +82,21 @@ var x = false;
 		document.getElementById('profile').style.display='none';
 }
 */
+
+
+var boxExperience = document.getElementsByClassName('experience');
+for(var i=0;i<boxExperience.length;i++)
+{
+	boxExperience[i].addEventListener('mouseenter',runEvent);
+	boxExperience[i].addEventListener('mouseleave',runEvent);
+
+}
+
+function runEvent(e){
+	console.log('EVENT TYPE: '+e.type);
+	if(e.type === 'mouseenter')
+		e.target.style.boxShadow = '0px 10px 5px grey';
+	else
+		e.target.style.boxShadow = 'none';
+
+}
