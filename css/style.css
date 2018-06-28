@@ -169,3 +169,47 @@ p.main-paragraph {
 	height: 5px !important;
 	padding: 0 !important;
 }
+
+.education{
+	box-shadow: 0px 0px 10px 3px #ccc;
+}
+
+.portfolio-class li{
+	float:left;
+	margin: 10px 20px 25px 0;
+}
+
+.portfolio-class a{
+	color: #fff;
+	padding-bottom: 15px;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.portfolio-class a:hover{
+	color: #ccc;
+}
+
+.portfolio-menu h2{
+	margin: 0;
+	padding-top: 25px;
+	padding-bottom: 15px;
+}
+
+a.current-portfolio{
+	box-shadow: 0px 4px 0px 0px #fff;
+}
+
+.portfolio-images{
+	margin-top: 50px;
+}
+.contact{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.contact .row{
+	border: 3px solid #03bacf;
+	padding: 30px 20px;
+
+}

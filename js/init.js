@@ -95,8 +95,12 @@ for(var i=0;i<boxExperience.length;i++)
 function runEvent(e){
 	console.log('EVENT TYPE: '+e.type);
 	if(e.type === 'mouseenter')
-		e.target.style.boxShadow = '0px 10px 5px grey';
+		e.target.style.boxShadow = '0px 5px 0px 0px #0291a1';
 	else
 		e.target.style.boxShadow = 'none';
 
 }
+
+//material box
+const mb = document.querySelectorAll('.materialboxed');
+M.Materialbox.init(mb,{});
